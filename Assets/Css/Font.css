@@ -1,0 +1,272 @@
+@font-face {
+  font-family: "Beaufort for LOL";
+  src: url("/Assets/Font/main/BeaufortforLOL-BoldItalic.woff2") format("woff2"),
+    url("/Assets/Font/main/BeaufortforLOL-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Beaufort for LOL";
+  src: url("/Assets/Font/main/BeaufortforLOL-HeavyItalic.woff2") format("woff2"),
+    url("/Assets/Font/main/BeaufortforLOL-HeavyItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Beaufort for LOL";
+  src: url("/Assets/Font/main/BeaufortforLOL-LightItalic.woff2") format("woff2"),
+    url("/Assets/Font/main/BeaufortforLOL-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Beaufort for LOL";
+  src: url("/Assets/Font/main/BeaufortforLOL-Bold.woff2") format("woff2"),
+    url("/Assets/Font/main/BeaufortforLOL-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Beaufort for LOL";
+  src: url("/Assets/Font/main/BeaufortforLOL-Heavy.woff2") format("woff2"),
+    url("/Assets/Font/main/BeaufortforLOL-Heavy.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Beaufort for LOL";
+  src: url("/Assets/Font/main/BeaufortforLOL-Light.woff2") format("woff2"),
+    url("/Assets/Font/main/BeaufortforLOL-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Beaufort for LOL";
+  src: url("/Assets/Font/main/BeaufortforLOL-Italic.woff2") format("woff2"),
+    url("/Assets/Font/main/BeaufortforLOL-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Beaufort for LOL";
+  src: url("/Assets/Font/main/BeaufortforLOL-MediumItalic.woff2")
+      format("woff2"),
+    url("/Assets/Font/main/BeaufortforLOL-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Beaufort for LOL";
+  src: url("/Assets/Font/main/BeaufortforLOL-Medium.woff2") format("woff2"),
+    url("/Assets/Font/main/BeaufortforLOL-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Beaufort for LOL";
+  src: url("/Assets/Font/main/BeaufortforLOL-Regular.woff2") format("woff2"),
+    url("/Assets/Font/main/BeaufortforLOL-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Font navigation */
+
+@font-face {
+  font-family: "MarkPro";
+  src: url("/Assets/Font/main/MarkPro-Thin.woff2") format("woff2"),
+    url("/Assets/Font/main/MarkPro-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MarkPro-HairlineItalic";
+  src: url("/Assets/Font/main/MarkPro-HairlineItalic.woff2") format("woff2"),
+    url("/Assets/Font/main/MarkPro-HairlineItalic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MarkPro";
+  src: url("/Assets/Font/main/MarkPro-ThinItalic.woff2") format("woff2"),
+    url("/Assets/Font/main/MarkPro-ThinItalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MarkPro";
+  src: url("/Assets/Font/main/MarkPro.woff2") format("woff2"),
+    url("/Assets/Font/main/MarkPro.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MarkPro-Hairline";
+  src: url("/Assets/Font/main/MarkPro-Hairline.woff2") format("woff2"),
+    url("/Assets/Font/main/MarkPro-Hairline.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MarkPro";
+  src: url("/Assets/Font/main/MarkPro-Light.woff2") format("woff2"),
+    url("/Assets/Font/main/MarkPro-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MarkPro";
+  src: url("/Assets/Font/main/MarkPro-Heavy.woff2") format("woff2"),
+    url("/Assets/Font/main/MarkPro-Heavy.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MarkPro";
+  src: url("/Assets/Font/main/MarkPro-ExtraLight.woff2") format("woff2"),
+    url("/Assets/Font/main/MarkPro-ExtraLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MarkPro";
+  src: url("/Assets/Font/main/MarkPro-Bold.woff2") format("woff2"),
+    url("/Assets/Font/main/MarkPro-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MarkPro-Book";
+  src: url("/Assets/Font/main/MarkPro-Book.woff2") format("woff2"),
+    url("/Assets/Font/main/MarkPro-Book.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MarkPro";
+  src: url("/Assets/Font/main/MarkPro-Black.woff2") format("woff2"),
+    url("/Assets/Font/main/MarkPro-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MarkPro";
+  src: url("/Assets/Font/main/MarkPro-HeavyItalic.woff2") format("woff2"),
+    url("/Assets/Font/main/MarkPro-HeavyItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MarkPro";
+  src: url("/Assets/Font/main/MarkPro-Medium.woff2") format("woff2"),
+    url("/Assets/Font/main/MarkPro-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MarkPro";
+  src: url("/Assets/Font/main/MarkPro-Italic.woff2") format("woff2"),
+    url("/Assets/Font/main/MarkPro-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MarkPro";
+  src: url("/Assets/Font/main/MarkPro-LightItalic.woff2") format("woff2"),
+    url("/Assets/Font/main/MarkPro-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MarkPro";
+  src: url("/Assets/Font/main/MarkPro-MediumItalic.woff2") format("woff2"),
+    url("/Assets/Font/main/MarkPro-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MarkPro";
+  src: url("/Assets/Font/main/MarkPro-ExtraLightItalic.woff2") format("woff2"),
+    url("/Assets/Font/main/MarkPro-ExtraLightItalic.woff") format("woff");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MarkPro-BookItalic";
+  src: url("/Assets/Font/main/MarkPro-BookItalic.woff2") format("woff2"),
+    url("/Assets/Font/main/MarkPro-BookItalic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MarkPro";
+  src: url("/Assets/Font/main/MarkPro-BoldItalic.woff2") format("woff2"),
+    url("/Assets/Font/main/MarkPro-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MarkPro";
+  src: url("/Assets/Font/main/MarkPro-BlackItalic.woff2") format("woff2"),
+    url("/Assets/Font/main/MarkPro-BlackItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
