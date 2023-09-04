@@ -1,0 +1,147 @@
+.header {
+  background-color: #111;
+  border-bottom: 2px solid rgba(51, 51, 51, 0.25);
+  font-family: "FF Mark W05", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  height: 80px;
+  line-height: normal;
+  text-align: left;
+  display: flex;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 35px;
+}
+
+.logo_riotGamees-img {
+  fill: #ffffff;
+}
+
+.logo_riotGamees-img:hover {
+  fill: #eb0029;
+}
+.logo_riotGamees-img:hover .logo__ti-angle-down {
+  fill: #eb0029;
+}
+
+.btn__sign-in,
+.btn__play-now {
+  cursor: pointer;
+  display: inline-block;
+  transition: color 1s cubic-bezier(0.06, 0.81, 0, 0.98);
+  vertical-align: middle;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: none;
+  background: rgba(128, 128, 128, 0.2);
+  padding: 8px 16px;
+  border-radius: 6.4px;
+  letter-spacing: 0.08em;
+  line-height: 120%;
+  height: 32px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.nav__list {
+  display: flex;
+  column-gap: 8px;
+}
+
+.nav__item {
+  line-height: 80px;
+  position: relative;
+  transform: translateY(-1px);
+}
+
+.nav__item:hover .nav__item-link {
+  background: rgba(128, 128, 128, 0.3);
+  border-radius: 6.4px;
+}
+.header-left {
+  display: flex;
+  column-gap: 40px;
+  align-items: center;
+}
+
+.header-logo {
+  display: flex;
+}
+.logo {
+  display: flex;
+  column-gap: 17px;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  column-gap: 38px;
+}
+.nav__item-link {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 7.5px 16px;
+  letter-spacing: 1px;
+}
+
+.logo__universe {
+  font-size: 18px;
+  color: #f9f9f9;
+  word-break: keep-all;
+}
+
+.header-right {
+  display: flex;
+  column-gap: 15px;
+  align-items: center;
+}
+
+.btn__play-now {
+  border-radius: 10px;
+  color: #000000;
+  font-weight: 700;
+  background: linear-gradient(
+    315deg,
+    rgb(11, 196, 226) 0%,
+    rgb(44, 140, 194) 100%
+  );
+}
+
+.btn {
+  display: flex;
+  column-gap: 12px;
+  align-items: center;
+}
+
+.item__hover {
+  visibility: hidden;
+  content: "";
+  display: inline-block;
+  position: absolute;
+  height: 4px;
+  bottom: 1px;
+  left: 0;
+  border-radius: 2px;
+  background-color: rgb(11, 196, 226);
+  width: 100%;
+}
+
+.logo_riotGamees {
+  position: relative;
+}
+.logo__ti-angle-down {
+  position: absolute;
+  top: 6px;
+  right: -10px;
+}
+
+/* Main */
+.main {
+  background-image: url(/Assets/Images/championsBackground.jpg);
+  background-repeat: none;
+}
